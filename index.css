@@ -20,9 +20,54 @@ hr{
 
 .img-banner{
 width: 100%;
-height: 100%;
-background-image: url(banner.png);
+height: 50%;
+background-image: url(banner1.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+position: relative;
+
 }
+
+
+
+.subtitulo{
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3rem;
+    color: #F2F2F2;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Para garantir que o texto fique na frente da imagem */
+
+}
+
+.ler-mais{
+    font-size: 1.20rem;
+    color: #11091a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 12px;
+    transition: .3s;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Para garantir que o texto fique na frente da imagem */
+}
+
+.ler-mais:hover{
+    scale: 1.05;
+    background-color: #ff459c;
+}
+
+
