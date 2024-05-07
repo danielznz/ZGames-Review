@@ -207,29 +207,124 @@ padding: 2px;
         background-color: #f80174;
     }
 
- 
-    .destaque {
-        padding: 20px;
-    }
-    
-    .videos-container {
+    .subtitulo2{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #11091a;
+    text-align: center;
+    text-transform: uppercase;
+        }
+        .row{
         display: flex;
-    }
-    
-    .video-big {
-        flex: 2; /* O primeiro vídeo terá duas vezes o tamanho dos outros */
-        margin-right: 10px; /* Espaçamento entre os vídeos */
-    }
-    
-    .videos-small {
-        flex: 1; /* Os outros vídeos terão um terço do tamanho do primeiro */
-    }
-    
-    video {
-        width: 100%; /* O vídeo ocupa todo o espaço disponível */
-        max-width: 100%; /* Garante que o vídeo não ultrapasse o tamanho máximo do contêiner */
-        display: block; /* Remove espaços em branco abaixo do vídeo */
-        margin-bottom: 10px; /* Espaçamento entre os vídeos */
-    }
-    
-    
+        align-items: center;
+        flex-wrap: wrap;
+        }
+      
+        .col{
+        flex-basis: 50%;
+        min-width: 250px;
+        }
+
+            .feature-img{
+            width: 93%;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            margin-left: -.1rem;
+            margin-top: -1.5rem;
+            }
+            .small-img-row{
+            display: flex;
+            background: #dbdbdb;
+            margin: 1rem 0;
+            align-items: center;
+            border-radius: 6px;
+            overflow: hidden;
+            width: 100%;
+
+  
+            }
+            .container {
+                max-width: 1200px; /* Adicionando a largura máxima do contêiner */
+                margin: 0 auto; /* Centralizando o contêiner */
+            }
+            .small-img{
+                position: relative;
+                
+                
+            }
+            .small-img img{
+              
+                width: 250px;
+            }
+            .small-img-row p{
+                margin-left: 20px;
+                color: #5F5F5F;
+                line-height: 22px;
+                font-size: 1rem;
+                font-family: "Kanit", sans-serif;
+                padding: 20px;
+            }
+            .play-btn{
+                width: 60px;
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                transform: translate(-50%,-50%);
+                cursor: pointer;
+                border-radius: 50%;
+                }
+               
+                .video-player {
+                    width: 30.1%;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    display: none;
+                    margin-top: 70.5rem;
+                    margin-left: -20.25rem;
+
+                
+                    }
+                    video:focus {
+                    outline: none;
+                    }
+                    
+                    .close-btn{
+                    position: absolute;
+                    top: 10px;
+                    left: 90%;
+                    width: 30px;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    }
+
+                    span{
+                        font-weight: 500;  
+                        color: #f80174; 
+                    }
+
+                    .subtitulo3{
+                        font-family: "kanit", sans-serif;
+                        font-weight: 300;
+                        font-style: normal;
+                        font-size: 1.25rem;
+                        color: #11091a;
+                        text-align: right;
+                            }
+
+                .descricao2{
+                        font-family: "kanit", sans-serif;
+                        padding-top: 1rem;
+                        font-weight: 200;
+                        font-style: normal;
+                        font-size: 1.25rem;
+                        color: #11091a;
+                        text-align: left;
+                }
+                    

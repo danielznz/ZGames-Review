@@ -119,21 +119,78 @@
             <div class="posicao-home">
                 <h1 class="titulo">Destaques</h1>
                 <hr>
-                <div class="videos-container">
-                    <div class="video-big">
-                        <video id="video1" src="./videos/video1.mp4" controls></video>
-                        <h3>AAAA</h3>
-                        <h3>AAAA</h3>
-                        <h3>AAAA</h3>
+                <div class="container">
+                    <h2 class="subtitulo2"> <span>Mario Wonder</span> é o destaque da semana!</h2>
+                    <div class="row">
+                    <div class="col">
+                    <div class="feature-img">
+                    <img src="./imagens/jogo16.jpg" width="100%">
+                    <img src="./imagens/player.png" class="play-btn"
+                    onclick="playVideo('./videos/video3.mp4')">
+                    <p class="descricao2">Mario Wonder</p>
+                    <p class="descricao2">2023</p>
+                    <p class="descricao2">Nintendo Switch</p>
+                    <p class="descricao2">⭐⭐⭐⭐⭐</p>
                     </div>
-                    <div class="videos-small">
-                        <video id="video2" src="./videos/video2.mp4" controls></video>
-                        <video id="video3" src="./videos/video3.mp4" controls></video>
-                        <video id="video3" src="./videos/video3.mp4" controls></video>
                     </div>
-                </div>
+                    <div class="col">
+                    <h2 class="subtitulo3">Veja Também:</h2>
+                    <div class="small-img-row">
+                    <div class="small-img">
+                    <img src="./imagens/thumb.jpeg"  width="60%">
+                    </div>
+                    <p>Veja como a comunidade está avaliando o novo jogo da Ubisoft, Prince of Persia: The Lost Crown!</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                        <img src="./imagens/jogo17.avif"  width="60%">
+                        </div>
+                        <p>"[...] Com toda certeza um dos melhores jogos de 2023."</p>
+                        </div>
+                        <div class="small-img-row">
+                            <div class="small-img">
+                            <img src="./imagens/jogo18.jpg"  width="60%">
+                            </div>
+                            <p>Nostalgico, veja as Reviews sobre o jogo Midnight club 3(2005).  </p>
+                            </div>
+                    </div>
+                    </div>
             </div>
+
+            <div class="video-player" id="videoPlayer">
+                <video width="100%" controls autoplay>
+                <source src="./videos/video3.mp4" type="video/mp4" id="myVideo">
+                </video>
+                <img src="./imagens/close.png" class="close-btn" onclick="stopVideo()">
+                </div>
         </section>
         
-    </body>
-</html>
+        <script>
+            var videoPlayer = document.getElementById("videoPlayer");
+            var myVideo = document.getElementById("myVideo");
+            function stopVideo() {
+            videoPlayer.style.display = "none";
+            }
+            function playVideo (file) {
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+            }
+            </script>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<li class="card">
+    <div class="img"><img src="./imagens/jogo2.png" alt="img" draggable="false"></div>
+    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+</li>
+<li class="card">
+    <div class="img"><img src="./imagens/jogo8.png" alt="img" draggable="false"></div>
+    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+</li>
+<li class="card">
+    <div class="img"><img src="./imagens/jogo10.webp" alt="img" draggable="false"></div>
+
+    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+</li>
