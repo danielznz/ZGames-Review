@@ -54,3 +54,13 @@ const infiniteScroll = () => {
     carousel.addEventListener("mousemove", dragging);
     document.addEventListener("mouseup", dragStop);
     carousel.addEventListener("scroll", infiniteScroll);
+
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+    function stopVideo() {
+    videoPlayer.style.display = "none";
+    }
+    function playVideo (file) {
+    myVideo.src = file;
+    videoPlayer.style.display = "block";
+    }

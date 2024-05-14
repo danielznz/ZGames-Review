@@ -1,0 +1,73 @@
+.rodape {
+    width: 100%;
+    background-color: #11091a;
+    color: #F2F2F2;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 100px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-contact {
+    margin-left: auto;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+    text-align: center;
+    color: #49424e;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #F2F2F2;
+   margin-left: 2rem;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    color: #f80174;
+}
+
+/* Estilos adicionais para os elementos do footer */
+
+.footer-social img {
+    height: 35px;
+}
+
+.contato {
+    margin: 0;
+}
+
+.rede-social {
+    margin-right: 10px; /* Espaçamento entre os ícones das redes sociais */
+}
+

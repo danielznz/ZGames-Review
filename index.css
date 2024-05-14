@@ -327,4 +327,10 @@ padding: 2px;
                         color: #11091a;
                         text-align: left;
                 }
-                    
+
+                .destaque-texto:hover{
+                    color: #f80174;
+                    text-decoration:underline;
+                }
+
+               

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="script.js" defer></script>
@@ -139,19 +140,19 @@
                     <div class="small-img">
                     <img src="./imagens/thumb.jpeg"  width="60%">
                     </div>
-                    <p>Veja como a comunidade está avaliando o novo jogo da Ubisoft, Prince of Persia: The Lost Crown!</p>
+                    <p class="destaque-texto">Veja como a comunidade está avaliando o novo jogo da Ubisoft, Prince of Persia: The Lost Crown!</p>
                     </div>
                     <div class="small-img-row">
                         <div class="small-img">
                         <img src="./imagens/jogo17.avif"  width="60%">
                         </div>
-                        <p>"[...] Com toda certeza um dos melhores jogos de 2023."</p>
+                        <p class="destaque-texto">"[...] Com toda certeza um dos melhores jogos de 2023."</p>
                         </div>
                         <div class="small-img-row">
                             <div class="small-img">
                             <img src="./imagens/jogo18.jpg"  width="60%">
                             </div>
-                            <p>Nostalgico, veja as Reviews sobre o jogo Midnight club 3(2005).  </p>
+                            <p class="destaque-texto">Nostalgico, veja as Reviews sobre o jogo Midnight club 3(2005).  </p>
                             </div>
                     </div>
                     </div>
@@ -164,33 +165,36 @@
                 <img src="./imagens/close.png" class="close-btn" onclick="stopVideo()">
                 </div>
         </section>
+
+        <section class="rodape">
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <img src="./imagens/logo.jpg" alt="Logo do Site de Reviews de Jogos">
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a class="link-footer" href="index.html">Página Inicial</a></li>
+                            <li><a class="link-footer" href="sobre.html">Reviews</a></li>
+                            <li><a class="link-footer" href="contato.html">Notícias</a></li>
+                            <li><a class="link-footer" href="politica-de-privacidade.html">Sobre Nós</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            
+                            <li class="rede-social"><a href="#"><img src="./imagens/ig.png" height="35px"></a></li>
+                            <li class="rede-social"><a href="#"><img src="./imagens/fb.png" height="35px"></a></li>
+                            <li class="rede-social"><a href="#"><img src="./imagens/x.png" height="35px"></a></li>
+                            <li class="rede-social"><a href="#"><img src="./imagens/yt.png" height="35px"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 ZGames Review. Todos os direitos reservados.</p>
+                    <p>Desenvolvido por Daniel Teixeira</p>
+                </div>
+            </footer>   
+        </section>
         
-        <script>
-            var videoPlayer = document.getElementById("videoPlayer");
-            var myVideo = document.getElementById("myVideo");
-            function stopVideo() {
-            videoPlayer.style.display = "none";
-            }
-            function playVideo (file) {
-            myVideo.src = file;
-            videoPlayer.style.display = "block";
-            }
-            </script>
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-<li class="card">
-    <div class="img"><img src="./imagens/jogo2.png" alt="img" draggable="false"></div>
-    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
-</li>
-<li class="card">
-    <div class="img"><img src="./imagens/jogo8.png" alt="img" draggable="false"></div>
-    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
-</li>
-<li class="card">
-    <div class="img"><img src="./imagens/jogo10.webp" alt="img" draggable="false"></div>
-
-    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
-</li>
+        
