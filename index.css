@@ -332,5 +332,97 @@ padding: 2px;
                     color: #f80174;
                     text-decoration:underline;
                 }
+          
 
+                .review {
+                    color: #11091a;
+                    padding: 20px 0;
+                    text-align: center;
+                    font-family: "kanit", sans-serif;
+                    font-weight: 300;
+                    font-size: 1rem;
+                   
+                }
+                
+                .review-container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+                
+                .review h2 {
+                    margin-bottom: 20px;
+                }
+                
+                .reviews {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap; /* Adicionando quebra de linha para manter os cards em linha */
+                }
+                
+                .review-content {
+                    width: calc(50% - 20px); 
+                    border: 2px solid #f80174;
+                    border-radius: 10px;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    box-sizing: border-box;
+                }
+                
+                .review-user {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                }
+                
+                .review-user img {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+                
+                .review-text h3 {
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                }
+                
+                .review-text p {
+                    margin-bottom: 5px;
+                }
+
+                .nickname{
+                   font-style: italic;
+                   font-size: 1rem;
+                }
+                
+                .ver-perfil{
+                    border-radius: 10px;
+                    background-color: #f80174;
+                    padding: 10px;
+                    color: #F2F2F2;
+                    transition: .3s;
+          
+                }
+
+                .ver-perfil:hover{
+                    background-color: #11091a;
+                    cursor: pointer;
+                }
+                
+                .subtitulo4{
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 2rem;
+                    color: #11091a;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
                
+            
+                .nome-perfil{
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 500;
+                }
