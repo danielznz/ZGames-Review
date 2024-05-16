@@ -8,19 +8,178 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="reviews.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="navbar">
         <div class="posicao-navbar">
-        <a href="index.html">
-        <img class="img-navbar" src="./imagens/logo.jpg"></a>
-        <a href="#">Reviews</a>
-        <a href="#">Plataformas</a>
-        <a href="#">Notícias</a>
-        <a href="#">Sobre nós</a>
+            <a href="index.html">
+                <img class="img-navbar" src="./imagens/logo.jpg" alt="Logo">
+            </a>
+            <a href="#">Reviews</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Plataformas</a>
+                <div class="dropdown-content">
+                    <a href="#">Playstation</a>
+                    <a href="#">Xbox</a>
+                    <a href="#">Nintendo</a>
+                    <a href="#">PC</a>
+                </div>
+            </div>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre nós</a>
         </div>
     </section>
 
+
+    <section class="review">
+        <div class="posicao-reviews">
+        <h1 class="titulo">Todas as Reviews</h1>
+        <hr>
+        <div class="wrapper">
+            <img class="botao" id="left" src="./imagens/back.png" height="10px" width="10px">
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo 1.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo12.png" alt="img" draggable="false"></div>
+
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo3.png" alt="img" draggable="false"></div>
+
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo4.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <img src="./imagens/jogo6.png" alt="img" draggable="false">
+                    </div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo2.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo8.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo10.webp" alt="img" draggable="false"></div>
+
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo7.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo11.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo13.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo14.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo9.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo15.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+            </ul>
+            <img src="./imagens/front.png" class="botao" id="right" height="10px" width="10px">
+        </div>
+        <h1 class="titulo">Todas as Reviews</h1>
+        <hr>
+        <div class="wrapper">
+            <img class="botao" id="left" src="./imagens/back.png" height="10px" width="10px">
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo 1.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo12.png" alt="img" draggable="false"></div>
+
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo3.png" alt="img" draggable="false"></div>
+
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo4.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img">
+                        <img src="./imagens/jogo6.png" alt="img" draggable="false">
+                    </div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo2.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo8.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo10.webp" alt="img" draggable="false"></div>
+
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo7.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo11.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo13.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo14.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo9.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="./imagens/jogo15.png" alt="img" draggable="false"></div>
+                    <p class="descricao">5.0 ⭐⭐⭐⭐⭐</p>
+                </li>
+            </ul>
+            <img src="./imagens/front.png" class="botao" id="right" height="10px" width="10px">
+        </div>
+        </div>
+    </section>
 
 
     <section class="rodape">
