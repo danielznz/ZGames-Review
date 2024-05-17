@@ -170,3 +170,20 @@ padding: 2px;
     .vertodas:hover{
         background-color: #f80174;
     }
+
+    .sub-review{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    }
+    
+    span{
+        font-weight: 500;  
+        color: #f80174; 
+    }
+
+    
