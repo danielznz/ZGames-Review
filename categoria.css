@@ -34,3 +34,125 @@
 .ler-mais:hover{
   scale: 1.05;
 }
+
+.botao {
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    transform: translateY(-50%);
+    box-shadow: 0 3px 6px #11091a;
+    font-size: 1.15rem;
+    z-index: 2;
+    max-width: 1200px; 
+
+    }
+    .botao:first-child {
+    left: -25px;
+    }
+    .botao:last-child {
+        right: -25px;
+        }
+.wrapper{
+    margin-top: 2.5rem;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100/3)- 12px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.corousel .card{
+    scroll-snap-align: start;
+    height: 500px;
+    list-style: none;
+    background: #11091a;
+    border-radius: 8px;
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center ;
+    flex-direction: column;
+    justify-content: column;
+    cursor: pointer;
+}
+.carousel :where(.card, .img) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel.no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel.dragging{
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+}
+.carousel.dragging .card{
+    cursor: grab;
+    user-select: none;
+}
+
+.card .img{
+width: 200px;
+height: 250px;
+border-radius: 10px;
+padding: 2px;
+}
+
+.card .img img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #F0EFEA;
+
+}
+
+.card .img:hover{
+    scale: 1.05;
+    opacity: .8;
+    border-radius: 10px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-rows: auto auto; 
+        justify-content: center; 
+    }
+    
+    .img {
+        grid-row: 1; 
+    }
+    
+    .descricao {
+        margin-top: .5rem;
+        grid-row: 2; 
+        text-align: center; 
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .posicao-reviews {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+    }
