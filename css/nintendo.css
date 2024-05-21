@@ -1,8 +1,10 @@
 .img-banner{
     width: 100%;
     height: 50%;
-    background-image: url(./imagens/bannerx.png);
+    background-image: url(../imagens/bannerni.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     }
+
+    
