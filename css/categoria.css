@@ -38,7 +38,7 @@
 .botao {
     height: 50px;
     width: 50px;
-    background: #fff;
+    background: #f2f2f2;
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
@@ -124,8 +124,6 @@ padding: 2px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid #F0EFEA;
-
 }
 
 .card .img:hover{
