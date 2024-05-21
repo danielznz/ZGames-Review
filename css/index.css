@@ -63,8 +63,7 @@ position: relative;
 }
 
 .ler-mais:hover{
-    scale: 1.05;
-    background-color: #ff459c;
+    scale: 1.1;
 }
 
 .botao {
@@ -204,6 +203,7 @@ padding: 2px;
 
     .vertodas:hover{
         background-color: #f80174;
+        color: #f2f2f2;
     }
 
     .subtitulo2{
